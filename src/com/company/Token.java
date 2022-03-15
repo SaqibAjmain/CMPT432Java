@@ -37,17 +37,4 @@ public class Token {
         return ("DEBUG Lexer - " + getType() + "[ " + getVal() + " ]" + " found at (" + getLine() + ":" + getCharAt() + ")")
     }
 
-    public String findType(String type, String val){
-
-        String statementKW = "(print)|(while)|(if)";
-        String boolKW = "(true)|(false)";
-        String typeKW = "(int)|(string)|(boolean)";
-        String charID = "[a-z]";
-        String digit = "[0-9]";
-        String symbolList = "[{}()=!+$]";
-
-
-
-        return type;
-    }
 }
